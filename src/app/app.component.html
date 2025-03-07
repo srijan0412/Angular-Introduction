@@ -1,9 +1,10 @@
 <div>
-  <h1>Hello, {{userName}}</h1>
+  <h1>Hello, {{userName}} from BridgeLabz</h1>
   <img [src]="imgUrl" (click)="onClick()" alt="'BridgeLabz logo'">
 </div>
 <div>
   <input type="text" [(ngModel)]="userName"> <br/> <br/>
+  <span class="error-output">{{this.nameError}}</span>
 </div>
 
 <router-outlet />
