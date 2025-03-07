@@ -1,6 +1,6 @@
 <div>
   <h1>{{title}}</h1>
-  <img [src]="imgUrl" [alt]="'BridgeLabz logo'">
+  <img [src]="imgUrl" (click)="onClick()" alt="'BridgeLabz logo'">
 </div>
 
 <router-outlet />

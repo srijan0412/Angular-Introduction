@@ -10,5 +10,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'Hello from BridgeLabz';
-  imgUrl = '../assets/BL_logo.jpg'
+  imgUrl = "../assets/BL_logo.jpg";
+  url = "https://bridgelabz.com";
+
+  onClick() {
+    window.open(this.url);
+  }
 }
